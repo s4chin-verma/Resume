@@ -1,0 +1,83 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+h1,
+h2,
+h3 {
+    color:#088395;
+}
+
+.resume {
+    width: 210mm;
+    height: 297mm;
+    margin: 0 auto 20mm;
+    /* Remove top margin, keep bottom margin */
+    padding: 0 20px;
+    /* Remove top padding, keep left and right padding */
+    background-color: #ffffff;
+    /* box-shadow: 0 0 5px rgba(0, 0, 0, 0.3); */
+}
+
+img {
+    float: right;
+    /* Float the image to the right */
+    height: 10rem;
+    position: absolute;
+    top: 0;
+    /* Position from the top */
+    right: 20px;
+    /* Position from the right */
+    margin: 0;
+    /* Reset margin */
+}
+
+header {
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 24px;
+}
+
+p {
+    font-size: 16px;
+    margin: 5px 0;
+}
+
+h2 {
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+ul {
+    margin-left: 20px;
+}
+
+.education {
+    margin: 0px;
+}
+
+.education table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+.education th {
+    background-color: #f2f2f2;
+    padding: 8px;
+    text-align: left;
+}
+
+/* Style table data cells */
+.education td {
+    padding: 8px;
+    /* Add padding */
+    border-bottom: 1px solid #ddd;
+    /* Add bottom border for separation */
+}
+
+/* Define additional styles for other sections as needed */
